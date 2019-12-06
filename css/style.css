@@ -67,6 +67,12 @@ button.btn {
     cursor: pointer;
 
 }
+
+
+.container {
+
+    margin: 0 5 vw;
+}
 /**----------global classes--------*/
 
 /**-------------navbar----------------*/
@@ -196,6 +202,37 @@ main .site-title .btn{
 }
 
 /*-----xx----------site title----xxxx----*/
+
+main .blog{
+background: url('../assets/Abract01.png');
+background-repeat: no-repeat;
+background-position: right;
+height: 100vh;
+background-size:65%;
+}
+
+main .blog .blog-post{
+    padding-top: 6rem;
+}
+
+main .blog-post .blog-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 3rem 2rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}   
+
+main .blog-content .btn-blog{
+    padding: .7rem 2rem;
+    background: var(--sky);
+    margin: .5rem;
+}
+
+main .blog-content span{
+    display: block;
+}
 
 /*---x-----------Main Content------x---*/
 
